@@ -1,0 +1,5 @@
+a) Code berechnet die Summe der Zahlen von 2 bis 101, und folglich bekommt 100 mehr, als es sein soll.
+b) Die Schleife bezieht sich nur auf das Kommando "n +=1;", da keine geschweifte Klammern geschrieben werden. Programm vergroessert n, bis es 100 ist. Danach bekommt sum den neuen Wert 101.
+c) Korrekt (Gaußsche Summenformel)
+d) Sum wird bei jedem Durchlauf der Schleife auf 0 gesetzt. Wenn n 100 ist, wird sum auch 100. Aber da sum nur innen in der Scleife deklariert wurde, wird diese Variable geloescht.
+e) Summe von 1 bis 64 wird berechnet (0100oct = 64dez)
